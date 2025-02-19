@@ -1,12 +1,15 @@
 .header {
   font-family: 'Playfair Display', serif;
-  font-size: 60px;
+  font-size: 80px;
  text-align: center;
+ color: #FFFFFF;
+ text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 ul {
   display: flex;  
-  justify-content: space-between;/
+  justify-content: space-between;
+  gap: 20px;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -20,14 +23,15 @@ li {
 
 a {
   text-decoration: none;
-  color: black;
-  font-size: 20px;
-  font-family: "Luna", sherif;
+  color: white;
+  font-size: 40px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  font-family: "Luna", serif;
 }
 
 
 body {
-  background-image: url("images/backround.jpg");
+  background-image: url("images/backround2.jpg");
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
@@ -35,3 +39,4 @@ body {
   margin: 0; 
   padding: 0; 
 }
+
