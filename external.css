@@ -9,7 +9,7 @@
 .smal-header {
 color: #FFFFFF;
 text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-font-size: 40;
+font-size: 40px;
 }
 
 ul {
@@ -54,4 +54,13 @@ a {
   margin: 0; 
   padding: 0; 
   }
+
+.image {
+  height: auto;
+  width: 350px;
+ position: absolute;
+ top: 30%;
+ left: 60%;
+}
+
  
