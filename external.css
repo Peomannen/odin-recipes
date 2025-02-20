@@ -6,6 +6,12 @@
  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
+.smal-header {
+color: #FFFFFF;
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+font-size: 40;
+}
+
 ul {
   display: flex;  
   justify-content: space-between;
@@ -30,7 +36,7 @@ a {
 }
 
 
-body {
+.Landing-page {
   background-image: url("images/backround2.jpg");
   background-size: cover; 
   background-position: center; 
@@ -39,4 +45,13 @@ body {
   margin: 0; 
   padding: 0; 
 }
-
+.inner-page {
+    background-color: #9db4ae;
+    background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  height: 100vh; 
+  margin: 0; 
+  padding: 0; 
+  }
+ 
